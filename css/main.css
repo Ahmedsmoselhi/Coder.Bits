@@ -1,0 +1,148 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Start Nav */
+.navbar {
+  background-color: #343a40 !important ;
+  font-size: 18px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+  color: #fff;
+}
+/* End Nav */
+/* Start Home */
+.home {
+  background-image: url(../images/home.jpg);
+  width: 100%;
+  min-height: 680px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 85px;
+}
+.color-overlay {
+  background-color: #ec3337;
+  opacity: 0.7;
+  width: 100%;
+  min-height: 100%;
+}
+.bold,
+.btn-outline-light,
+.shadows {
+  color: white;
+  opacity: 0.9;
+}
+.padding {
+  padding-top: 10rem;
+}
+.bold {
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 4px rgb(255 58 58);
+  margin-inline: auto;
+}
+.shadows {
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 4px #a7a7a7;
+  padding-bottom: 20px;
+}
+.button1:hover {
+  background-color: white !important;
+  color: black;
+}
+/* End Home */
+/* Start About */
+.section-two {
+  background-color: white;
+}
+.bold2 {
+  font-weight: bold;
+}
+.bold3 {
+  font-weight: 600;
+}
+.icon1 {
+  font-size: 3rem;
+  padding-right: 15px;
+  cursor: pointer;
+  color: #a6b9b9;
+}
+.icon1:hover {
+  color: #d41414;
+}
+.progress {
+  --bs-progress-bar-bg: #dc3545;
+  margin-bottom: 25px;
+  margin-top: -10px;
+}
+.adjust {
+  margin-inline: auto;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .content-to-hide {
+    display: none;
+  }
+  .icon1 {
+    font-size: 2rem;
+    padding-right: 3px;
+  }
+  .media1 {
+    text-align: center;
+    margin-inline: auto;
+  }
+}
+/* End About */
+/* Start Work */
+.section-three {
+  background-color: #eee;
+}
+.color2 {
+  background-color: white;
+  height: 255px;
+}
+.icon2 {
+  font-size: 3rem;
+  color: #a6b9b9;
+}
+.icon2:hover {
+  color: #d41414;
+}
+.img-work {
+  background-image: url(../images/work.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: fit-content;
+}
+.color3 {
+  color: wheat;
+}
+.color4 {
+  color: #d81414;
+}
+/* End Work */
+/* Start Portfolio  */
+.section-four {
+  background-color: #eee;
+}
+.color5 {
+  background-color: white;
+}
+.wid {
+  width: 95%;
+  height: 95%;
+  background-color: white;
+}
+.hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 1s ease-in-out;
+}
+.hover:hover {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+/* End Portfolio  */
